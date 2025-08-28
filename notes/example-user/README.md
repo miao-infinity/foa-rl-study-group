@@ -1,3 +1,3 @@
-# Example User's notes
+# Lee's notes
 
-Put your notes here. Replace 'example-user' with your own folder name.
+This is where I keep my weekly notes.

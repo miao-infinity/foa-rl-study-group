@@ -11,13 +11,9 @@ notes/
 ├── README.md (this file)
 ├── example-user/
 │   ├── README.md
-│   ├── week1.md
-│   └── week2.md
-├── lee/
-│   ├── README.md
 │   ├── week1-qlearning.md
 │   └── week2-policy-gradients.md
-└── [your-name]/
+└── [your-name/alias]/
     └── [your notes will appear here]
 ```
 
@@ -27,6 +23,7 @@ notes/
 
 ### Step 1: Create Your Folder
 Create a folder under `notes/` with your name or GitHub username:
+
 ```
 notes/your-name/
 ```
@@ -43,9 +40,9 @@ Add your weekly notes inside your folder:
 ```
 notes/alex/
 ├── README.md (optional - introduce yourself and your learning goals)
-├── week1.md
-├── week2.md
-└── week3.md
+├── week1-qlearning.md
+├── week2-policy-gradients.md
+└── week3-deep-rl.md
 ```
 
 ### Step 3: Submit Your Work
@@ -55,20 +52,20 @@ notes/alex/
 
 ---
 
-## 📝 Note-Taking Guidelines
+## 📝 Note-Taking Suggestions
 
 ### File Naming Convention
-- Use descriptive names: `week1.md`, `week2.md`
+- Use descriptive names: `week1-qlearning.md`
 - Include week numbers for easy reference
-- Optional: Add topic to filename: `week1-qlearning.md`
+- Add topic to filename for clarity
 
-### What to Include in Your Notes
-- **Key Concepts**: Main ideas and definitions
-- **Important Formulas**: Mathematical expressions and algorithms
-- **Code Snippets**: Implementation examples
-- **Questions**: Things you're still curious about
-- **Connections**: How this relates to previous topics
-- **Resources**: Useful links and references
+### What to Include
+- **Concepts**: Main ideas and definitions
+- **Formulas**: Mathematical expressions
+- **Code**: Implementation examples
+- **Questions**: Things you're curious about
+- **Connections**: Links to previous topics
+- **Resources**: Useful references
 
 ---
 
@@ -77,22 +74,22 @@ notes/alex/
 ```markdown
 # Week X: [Topic Name]
 
-## 🎯 Key Takeaways
+## 🎯 Takeaways
 - [Main concept 1]
 - [Main concept 2]
 - [Main concept 3]
 
-## 📖 Important Definitions
+## 📖 Definitions
 - **Term 1**: Definition
 - **Term 2**: Definition
 
-## 🧮 Key Formulas
+## 🧮 Formulas
 ```python
 # Example code or formula
 Q(s,a) = Q(s,a) + α[r + γ max Q(s',a') - Q(s,a)]
 ```
 
-## ❓ Questions & Confusions
+## ❓ Questions 
 - [Questions you still have]
 - [Concepts that need clarification]
 
@@ -100,12 +97,11 @@ Q(s,a) = Q(s,a) + α[r + γ max Q(s',a') - Q(s,a)]
 - [Connections to previous weeks]
 - [Links to additional resources]
 
-## 📝 Personal Reflections
+
+## 📝 Reflections
 - [Your thoughts on the material]
 - [How you might apply this]
 ```
-
----
 
 ## 🎯 Benefits of Sharing Notes
 
@@ -114,12 +110,11 @@ Q(s,a) = Q(s,a) + α[r + γ max Q(s',a') - Q(s,a)]
 - **Build community**: Share your learning journey
 - **Create resources**: Build a collective knowledge base
 
----
 
-## 💡 Tips for Great Notes
+## 💡 Tips
 
 - **Be consistent**: Use similar structure across weeks
 - **Include examples**: Code snippets and concrete examples
 - **Ask questions**: Note what you don't understand
-- **Make connections**: Link to previous topics
+- **Make connections**: Link to previous and future topics
 - **Keep it personal**: Add your own insights and reflections

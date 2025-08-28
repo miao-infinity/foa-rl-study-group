@@ -92,18 +92,24 @@ foa-rl-study-group/
 
 ## 📚 Learning Path
 
-Our study group follows a structured approach to learning reinforcement learning:
+Here’s a draft learning path — you’re welcome to shape this with us — suggest topics in agenda/ or discussions!
 
 ### Foundation Topics
-- **Week 1**: Introduction to RL and basic concepts
-- **Week 2**: Q-Learning and value-based methods
-- **Week 3**: Policy gradients and policy-based methods
-- **Week 4**: Deep reinforcement learning
+- RL basics
+- value-based methods (e.g. Q-Learning)
+- policy-based methods (e.g. Policy gradients)
+- Deep reinforcement learning
+
+### Deep RL
+- Combining RL with neural networks
+- Actor-critic methods
+- Exploration strategies
 
 ### Advanced Topics
-- **Week 5+**: Actor-critic methods, exploration strategies
-- **Week 6+**: Multi-agent RL, hierarchical RL
-- **Week 7+**: Real-world applications and case studies
+- Curriculum Learning
+- Multi-agent RL
+- Hierarchical RL
+- Real-world applications and case studies/projects
 
 *Note: Topics may evolve based on group interests and progress*
 

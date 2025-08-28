@@ -19,16 +19,16 @@ agenda/
 - **Weekly Plans**: Each file corresponds to a specific week's study plan
 - **Shared Coordination**: All group members can see upcoming topics and schedules
 - **Flexible Updates**: Agendas can be updated as we progress through the material
+- **Leader Post**: Each agenda is posted by a designated leader
 
 ---
 
 ## 📝 File Naming Convention
 
-Use clear, descriptive names for agenda files:
+Clear, descriptive names for agenda files, examples:
 - `week1-introduction.md`
 - `week2-qlearning.md`
 - `week3-policy-gradients.md`
-- `week4-deep-rl.md`
 
 ---
 
@@ -37,11 +37,10 @@ Use clear, descriptive names for agenda files:
 ### Adding New Agendas
 1. Create a new markdown file with the week number and topic
 2. Include the following sections:
-   - **Topic Overview**
-   - **Learning Objectives**
-   - **Required Reading**
-   - **Discussion Points**
-   - **Optional Exercises**
+   - **Topic**: What we're learning this week
+   - **Reading**: What to read/watch (1-2 items max)
+   - **Discussion**: 2-3 key questions to explore
+   - **Code**: Simple implementation to try
 
 ### Updating Existing Agendas
 1. Fork the repository
@@ -50,7 +49,7 @@ Use clear, descriptive names for agenda files:
 
 ---
 
-## 📚 Example Agenda Structure
+## 📚 Agenda Structure
 
 ```markdown
 # Week X: [Topic Name]
@@ -60,66 +59,33 @@ Use clear, descriptive names for agenda files:
 - Implement [algorithm]
 - Discuss [application]
 
-## 📖 Required Reading
-- Paper/Book Chapter: [Title]
-- Optional: [Additional resources]
+## �� Prerequisites
+What you should know before this session.
+
+## 📖 Reading
+- [Main resource] - Paper/Book Chapter: [Title]
+- [Optional] - If you want to dive deeper
 
 ## 💭 Discussion Points
 - [Key questions to explore]
 - [Common misconceptions]
 - [Real-world applications]
 
-## 🧪 Optional Exercises
-- [Coding challenges]
-- [Theoretical problems]
-- [Research questions]
+
+## Self-Check
+After this session, can you:
+- [ ] Explain the main concept in your own words?
+- [ ] Answer the discussion questions?
+- [ ] Complete the code exercise (if you tried it)?
 ```
 
 ---
 
-## 📅 Planning Ahead
+## 📅 Planning Timeline
 
 - **2 weeks in advance**: Post upcoming agenda
-- **1 week in advance**: Finalize reading materials
-- **During the week**: Update with any changes or clarifications
+- **1 week in advance**: Share pre-reading questions and prerequisites
+- **Session format**: 60-90 minutes discussion + optional code review
+- **During the week**: Update if needed based on group feedback
 
 ---
-
-## ⚖️ Difficulty Adjustment Guidelines
-
-### Assessing Group Readiness
-- **Pre-session Check**: "How confident are you with the prerequisites?"
-- **Skill Level Survey**: Quick poll of current understanding
-- **Previous Week Review**: Identify gaps that need addressing
-
-### Adjusting Agenda Complexity
-- **Too Easy**: Add advanced extensions and deeper theoretical discussions
-- **Too Hard**: Include more foundational review and simplified examples
-- **Mixed Levels**: Provide tiered exercises (basic/intermediate/advanced)
-
-### Flexible Session Structure
-- **Core Content**: Essential concepts everyone should master
-- **Extension Activities**: Additional depth for those ready for more
-- **Support Sessions**: Extra help for those struggling with prerequisites
-
----
-
-## 🕐 Schedule Conflict Management
-
-### Handling Conflicts
-- **Advance Notice**: Post schedule changes at least 1 week ahead
-- **Alternative Sessions**: Offer multiple time slots when possible
-- **Asynchronous Options**: Provide materials for self-study when needed
-- **Catch-up Sessions**: Schedule makeup sessions for missed content
-
-### Communication Protocol
-- **Schedule Updates**: Use GitHub issues to announce changes
-- **Availability Polls**: Survey group for best meeting times
-- **Flexible Participation**: Allow partial attendance when needed
-- **Recording Sessions**: Consider recording for those who can't attend
-
-### Priority Guidelines
-- **Core Concepts**: Essential topics that build on each other
-- **Optional Content**: Interesting but not prerequisite material
-- **Review Sessions**: Important for reinforcing fundamentals
-- **Project Work**: Can be done asynchronously with group check-ins
